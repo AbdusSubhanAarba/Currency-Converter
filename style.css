@@ -127,6 +127,7 @@ form button {
         flex-direction: row; 
         justify-content: space-between; 
         margin-top: 4px;
+         border-radius: 0.5rem;
     }
 
     .select-container img {
