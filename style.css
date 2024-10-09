@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #59C9A5;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+   color: #5B6C5D;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius:  0px 0.75rem 0.75rem 0px ;
+}
+
+form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius:  0.75rem ;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    /* margin-left: -0.1rem; */
+}
+
+.amount p {
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.container p {
+    margin-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: -4px;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 00;
+}
+
+form button {
+    height: 3rem;
+    background-color: #465775;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 0 1rem; 
+    }
+
+    .container {
+        width: 100%; 
+        padding: 2rem; 
+        border-radius: 1rem;
+        max-width: 100%; 
+    }
+
+    .select-container {
+        width: 100%; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        margin-top: 4px;
+    }
+
+    .select-container img {
+        max-width: 1.5rem; 
+    }
+
+    form input {
+        height: 2.8rem; 
+    }
+
+    form button {
+        height: 3rem; 
+        font-size: 1.1rem; 
+    }
+
+    .msg {
+        margin: 1.5rem 0; 
+    }
+}
